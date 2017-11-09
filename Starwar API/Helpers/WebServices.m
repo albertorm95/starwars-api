@@ -6,6 +6,7 @@
 //
 
 #import "WebServices.h"
+#define NURLStarwarsPeople @"people/"
 
 @implementation WebServices
 

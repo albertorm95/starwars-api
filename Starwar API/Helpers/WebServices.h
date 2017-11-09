@@ -8,6 +8,6 @@
 #import <Foundation/Foundation.h>
 #import "Constants.h"
 
-@interface WebServices : NSObject
+@interface WebServices : NSObject<NSURLSessionDelegate>
 
 @end
