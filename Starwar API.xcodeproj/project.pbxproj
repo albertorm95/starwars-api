@@ -15,6 +15,8 @@
 		3B8BC5141FB3D79E006DC392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC5131FB3D79E006DC392 /* main.m */; };
 		3B8BC51E1FB3D815006DC392 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BC51D1FB3D815006DC392 /* Podfile */; };
 		3B8BC5221FB3D90C006DC392 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC5211FB3D90C006DC392 /* Declarations.m */; };
+		3B8BC5251FB3D92D006DC392 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC5241FB3D92D006DC392 /* WebServices.m */; };
+		3B8BC5281FB3D954006DC392 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC5271FB3D954006DC392 /* Constants.m */; };
 		5BD9E7D34DC04D02D4FAC3E8 /* libPods-Starwar API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A730D5BAC33EA84474B590C /* libPods-Starwar API.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,10 @@
 		3B8BC51D1FB3D815006DC392 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		3B8BC5201FB3D90C006DC392 /* Declarations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		3B8BC5211FB3D90C006DC392 /* Declarations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		3B8BC5231FB3D92D006DC392 /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		3B8BC5241FB3D92D006DC392 /* WebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		3B8BC5261FB3D954006DC392 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3B8BC5271FB3D954006DC392 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		4A730D5BAC33EA84474B590C /* libPods-Starwar API.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Starwar API.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1F4714C719B9B50F9C6D21 /* Pods-Starwar API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starwar API/Pods-Starwar API.debug.xcconfig"; sourceTree = "<group>"; };
 		B0F71BEB87229E7B4C835201 /* Pods-Starwar API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starwar API.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starwar API/Pods-Starwar API.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 				3B8BC51B1FB3D7BC006DC392 /* Main */,
 				3B8BC51A1FB3D7B4006DC392 /* Controllers */,
 				3B8BC51F1FB3D8E5006DC392 /* Helpers */,
+				3B8BC5291FB3D958006DC392 /* Models */,
 				3B8BC50D1FB3D79E006DC392 /* Assets.xcassets */,
 				3B8BC5121FB3D79E006DC392 /* Info.plist */,
 				3B8BC5131FB3D79E006DC392 /* main.m */,
@@ -114,8 +121,19 @@
 			children = (
 				3B8BC5201FB3D90C006DC392 /* Declarations.h */,
 				3B8BC5211FB3D90C006DC392 /* Declarations.m */,
+				3B8BC5231FB3D92D006DC392 /* WebServices.h */,
+				3B8BC5241FB3D92D006DC392 /* WebServices.m */,
+				3B8BC5261FB3D954006DC392 /* Constants.h */,
+				3B8BC5271FB3D954006DC392 /* Constants.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3B8BC5291FB3D958006DC392 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		5AA32992D0CC1E5A9627F551 /* Pods */ = {
@@ -261,9 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8BC5091FB3D79E006DC392 /* ViewController.m in Sources */,
+				3B8BC5251FB3D92D006DC392 /* WebServices.m in Sources */,
 				3B8BC5141FB3D79E006DC392 /* main.m in Sources */,
 				3B8BC5221FB3D90C006DC392 /* Declarations.m in Sources */,
 				3B8BC5061FB3D79E006DC392 /* AppDelegate.m in Sources */,
+				3B8BC5281FB3D954006DC392 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
