@@ -58,17 +58,41 @@
 		3B8BC5031FB3D79E006DC392 /* Starwar API */ = {
 			isa = PBXGroup;
 			children = (
-				3B8BC5041FB3D79E006DC392 /* AppDelegate.h */,
-				3B8BC5051FB3D79E006DC392 /* AppDelegate.m */,
-				3B8BC5071FB3D79E006DC392 /* ViewController.h */,
-				3B8BC5081FB3D79E006DC392 /* ViewController.m */,
-				3B8BC50A1FB3D79E006DC392 /* Main.storyboard */,
+				3B8BC51C1FB3D7D2006DC392 /* Views */,
+				3B8BC51B1FB3D7BC006DC392 /* Main */,
+				3B8BC51A1FB3D7B4006DC392 /* Controllers */,
 				3B8BC50D1FB3D79E006DC392 /* Assets.xcassets */,
-				3B8BC50F1FB3D79E006DC392 /* LaunchScreen.storyboard */,
 				3B8BC5121FB3D79E006DC392 /* Info.plist */,
 				3B8BC5131FB3D79E006DC392 /* main.m */,
 			);
 			path = "Starwar API";
+			sourceTree = "<group>";
+		};
+		3B8BC51A1FB3D7B4006DC392 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BC5071FB3D79E006DC392 /* ViewController.h */,
+				3B8BC5081FB3D79E006DC392 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3B8BC51B1FB3D7BC006DC392 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BC5041FB3D79E006DC392 /* AppDelegate.h */,
+				3B8BC5051FB3D79E006DC392 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3B8BC51C1FB3D7D2006DC392 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BC50A1FB3D79E006DC392 /* Main.storyboard */,
+				3B8BC50F1FB3D79E006DC392 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +306,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "albertorm95.Starwar-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,7 +319,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "albertorm95.Starwar-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
