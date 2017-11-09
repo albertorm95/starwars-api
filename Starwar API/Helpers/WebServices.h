@@ -11,4 +11,6 @@
 
 @interface WebServices : NSObject<NSURLSessionDelegate>
 
++ (void)getPeople:(void (^)(NSMutableArray<SWObject> *teams)) handler;
+
 @end

@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebServices.h"
+#import "Constants.h"
 
 @interface ViewController : UIViewController
 
