@@ -5,8 +5,9 @@
 //  Created by econfig on 11/8/17.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef Constants_h
+#define Constants_h
 
-@interface Constants : NSObject
+#define URLStarwarsAPI @"https://swapi.co/api/"
 
-@end
+#endif /* Constants_h */

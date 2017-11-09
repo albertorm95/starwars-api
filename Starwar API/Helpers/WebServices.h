@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Constants.h"
 
 @interface WebServices : NSObject
 
